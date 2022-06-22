@@ -1,12 +1,11 @@
-console.log("Hi nodejs");
+console.log("hi anjum");
 setTimeout(function(){
-    console.log("3 seconds have passed");
-},3000)
-
+    console.log("3 seconds");
+},3000);
 var time=0;
-var timer= setInterval(function(){
+var timer=setInterval(function(){
     time+=2;
-    console.log(time +" seconds have passed");
+    console.log(time+ " seconds")
     if(time>5){
         clearInterval(timer);
     }
