@@ -1,4 +1,114 @@
-What is an EventEmitter in node JS?
+1--What is an EventEmitter in node JS?
 The EventEmitter is a module that facilitates communication/interaction between objects in Node.
 EventEmitter is at the core of Node asynchronous event-driven architecture.
 Many of Node's built-in modules inherit from EventEmitter including prominent frameworks like Express.
+
+2--What is client in node js?
+The Node. js Client API enables you to create Node. js applications
+that can read, write, and query documents and semantic data in a MarkLogic database.
+
+3--What is a server in node js?
+Node. js is an open source server environment. Node. js uses JavaScript on the server.
+The task of a web server is to open a file on the server and return the content to the client.
+
+--Client and servers 
+Client sends the request to the server and server recieves the request and send the response back to the client.
+Protocols-A set of communication rules that boths sides agress to communicate with each other.
+What does server side language mean?
+Specifically, in Web Application Development there are two types of codes.
+
+--Client- Side
+Server-Side
+
+--Client-Side code is the code which executes on the Client PC (The WebSite/WebApp User/Visitor). 
+That is the HTML, JavaScript, CSS. This is what Web browsers understand.
+
+--Server-Side code is the code which executes on Server(Where website is hosted). That can be in PHP, C# (IN ASP_NET), PYTHON etc. 
+This contains database queries, calculations etc. After executing that code on Server all of that will get 
+rendered (Converted) to HTML which we generally see on our web browsers.
+
+
+
+--What are the tradeoffs of client-side rendering vs. server-side rendering?
+Since Google Plus and a few other cutting-edge websites now render entirely on the client,
+let's review why server-side rendering is desirable at all.
+
+--Server-side rendering means when the browser fetches the page over HTTP, 
+it immediately gets back HTML describing the page. Server-side rendering is nice because:
+
+--Your content is visible to search engines like Google.
+The page loads faster. There's no "white page" while the browser downloads the rendering code
+and data and runs the code.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
