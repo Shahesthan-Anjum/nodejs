@@ -59,9 +59,13 @@ Node. js is often also tagged as an event driven framework, and it's very easy t
 --Server-side rendering means when the browser fetches the page over HTTP, 
 it immediately gets back HTML describing the page. Server-side rendering is nice because:
 
---Your content is visible to search engines like Google.
-The page loads faster. There's no "white page" while the browser downloads the rendering code
-and data and runs the code.
+##Express is a node js web application framework that provides broad features for building web and mobile applications.
+It is used to build a single page, multipage, and hybrid web application. 
+It's a layer built on the top of the Node js that helps manage servers and routes
+
+Is node JS and express JS same?
+Node. js is a platform for building the i/o applications which are server-side event-driven and made using JavaScript.
+Express. js is a framework based on Node.
 
 
 
