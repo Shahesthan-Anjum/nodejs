@@ -33,6 +33,29 @@ rendered (Converted) to HTML which we generally see on our web browsers.
 Since Google Plus and a few other cutting-edge websites now render entirely on the client,
 let's review why server-side rendering is desirable at all.
 
+##Streams and buffer
+--Streams--We require streams in Node Js to handle and manipulate the streaming data like a video, a large file, etc.
+The streams module in Node.js is used to manage all the streams. 
+A stream is an abstract interface used to work along with the streaming data in Node.js.
+
+--Buffer--
+In Node Js, buffers are used to store raw binary data. A buffer represents a chunk of memory that is allocated on our computer. 
+The size of the buffer, once set, cannot be changed. A buffer is used to store bytes. 
+
+Three types of Streams
+1--Readable streams → This stream is used to create a stream of data for reading, for example: to read a large chunk of files.
+2--Writable streams → This stream is used to create a stream of data to write. For example: to write a large amount of data in a file
+3--Duplex streams → This stream is used to create a stream that is both readable and writable at the same time.
+
+####Pipes:
+Pipes can be used to connect multiple streams together. One of the most common example is to pipe the read 
+and write stream together for the transfer of data from one file to the other. 
+Node. js is often also tagged as an event driven framework, and it's very easy to define events in Node.
+
+
+
+
+
 --Server-side rendering means when the browser fetches the page over HTTP, 
 it immediately gets back HTML describing the page. Server-side rendering is nice because:
 
